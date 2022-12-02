@@ -1,7 +1,7 @@
 proxies:
 - name: AKRAB_GAYENG_04
   type: trojan
-  server: kno2fy.com
+  server: support.zoom.us
   port: 443
   password: 8dcef15c-6ec2-41c0-9052-1f4201cc5477
   udp: true
@@ -14,7 +14,7 @@ proxies:
       Host: do-gayeng.potatonc.my.id
 - name: AKRAB_TERONG
   type: trojan
-  server: kno2fy.com
+  server: support.zoom.us
   port: 443
   password: f3478f17-80b2-4ec2-aa30-50bc839f43bb
   udp: true
