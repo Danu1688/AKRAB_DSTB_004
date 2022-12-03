@@ -1,7 +1,7 @@
 proxies:
-- name: AKRAB_GAYENG_04
+- name: danu04
   type: trojan
-  server: support.zoom.us
+  server: 104.17.2.81
   port: 443
   password: 8dcef15c-6ec2-41c0-9052-1f4201cc5477
   udp: true
