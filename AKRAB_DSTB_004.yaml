@@ -14,7 +14,7 @@ proxies:
       Host: do-gayeng.potatonc.my.id
 - name: AKRAB_TERONG
   type: trojan
-  server: 104.17.2.81
+  server: teams.live.com
   port: 443
   password: f3478f17-80b2-4ec2-aa30-50bc839f43bb
   udp: true
