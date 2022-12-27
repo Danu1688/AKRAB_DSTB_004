@@ -1,17 +1,17 @@
 proxies:
-- name: danuWs03
+- name: danuWs04
   type: trojan
   server: 104.20.74.141
   port: 443
-  password: 4ca9b740-88cf-46ed-a4d5-35322b45d28f
+  password: bce17684-d142-4760-8932-88bd7ff7ec14
   udp: true
-  sni: sg-do2.sshpremium.my.id
+  sni: id-magna.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: sg-do2.sshpremium.my.id
+      Host: id-magna.sshpremium.my.id
 - name: danuGo01
   type: trojan
   server: 172.67.199.34
