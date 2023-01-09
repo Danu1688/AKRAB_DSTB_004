@@ -5,16 +5,16 @@ proxies:
   port: 443
   password: bce17684-d142-4760-8932-88bd7ff7ec14
   udp: true
-  sni: id-magna.sshpremium.my.id
+  sni: id-media.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-magna.sshpremium.my.id
+      Host: id-media.sshpremium.my.id
 - name: danuWs04-SNIa
   type: trojan
-  server: id-magna.sshpremium.my.id
+  server: id-media.sshpremium.my.id
   port: 443
   password: bce17684-d142-4760-8932-88bd7ff7ec14
   udp: true
@@ -27,7 +27,7 @@ proxies:
       Host: gomarketplacecontent-cf.zoom.us
 - name: danuWs04-SNIb
   type: trojan
-  server: id-magna.sshpremium.my.id
+  server: id-media.sshpremium.my.id
   port: 443
   password: bce17684-d142-4760-8932-88bd7ff7ec14
   udp: true
@@ -44,36 +44,36 @@ proxies:
   port: 443
   password: bce17684-d142-4760-8932-88bd7ff7ec14
   udp: true
-  sni: id-magna.sshpremium.my.id
+  sni: id-media.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-magna.sshpremium.my.id
+      Host: id-media.sshpremium.my.id
 - name: danuWs04-Midtrans
   type: trojan
   server: midtrans.com
   port: 443
   password: bce17684-d142-4760-8932-88bd7ff7ec14
   udp: true
-  sni: id-magna.sshpremium.my.id
+  sni: id-media.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-magna.sshpremium.my.id
+      Host: id-media.sshpremium.my.id
 - name: danuWs04
   type: trojan
   server: 172.67.199.34
   port: 443
   password: bce17684-d142-4760-8932-88bd7ff7ec14
   udp: true
-  sni: id-magna.sshpremium.my.id
+  sni: id-media.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: id-magna.sshpremium.my.id
+      Host: id-media.sshpremium.my.id
