@@ -1,5 +1,5 @@
 proxies:
-- name: danuWs04-IP34
+- name: danuWs04a-IP34
   type: trojan
   server: 172.67.199.34
   port: 443
@@ -12,7 +12,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: id-media.sshpremium.my.id
-- name: danuWs04-SNIa
+- name: danuWs04a-SNIa
   type: trojan
   server: id-media.sshpremium.my.id
   port: 443
@@ -25,7 +25,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: gomarketplacecontent-cf.zoom.us
-- name: danuWs04-SNIb
+- name: danuWs04a-SNIb
   type: trojan
   server: id-media.sshpremium.my.id
   port: 443
@@ -38,7 +38,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: gomarketplacefront-cf.zoom.us
-- name: danuWs04-Identrust
+- name: danuWs04a-Identrust
   type: trojan
   server: crl.identrust.com
   port: 443
@@ -51,7 +51,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: id-media.sshpremium.my.id
-- name: danuWs04-Midtrans
+- name: danuWs04a-Midtrans
   type: trojan
   server: midtrans.com
   port: 443
@@ -64,7 +64,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: id-media.sshpremium.my.id
-- name: danuWs04
+- name: danuWs04a
   type: trojan
   server: 172.67.199.34
   port: 443
